@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3B82F6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* For Firefox */
+html {
+  scrollbar-color: #3B82F6 #f1f1f1;
+  scrollbar-width: thin;
+}
+
+/* Animation classes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+section {
+  opacity: 0;
+}
+
+/* Skill bar animation */
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+}
+
+/* Custom focus styles */
+*:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Dark mode styles for scrollbar */
+.dark::-webkit-scrollbar-track {
+  background: #1F2937;
+}
+
+.dark::-webkit-scrollbar-thumb {
+  background: #60A5FA;
+}
+
+.dark::-webkit-scrollbar-thumb:hover {
+  background: #93C5FD;
+}
+
+/* Dark mode for Firefox scrollbar */
+.dark {
+  scrollbar-color: #60A5FA #1F2937;
+}
