@@ -1,4 +1,4 @@
-import { Briefcase, Code, Database, Brain, BarChart as ChartBar, GitBranch, Workflow, GraduationCap } from 'lucide-react';
+import { Code, Brain, BarChart as ChartBar, Workflow } from 'lucide-react';
 
 export interface SkillCategory {
   name: string;
