@@ -115,7 +115,7 @@ export const projects: Project[] = [
     technologies: ["Python", "TensorFlow", "SQL", "Flask", "Open CV"],
     results: "Achieved 92% accuracy in predicting diseases,Proving Recommendations for 50+ plants.",
     link: "https://github.com/Priyadharshini091/medicinal-plants-system.git",
-    image: "images/img1.jpg"
+    image: "https://i.postimg.cc/rp8jhPsw/img1.jpg"
   },
   {
     title: "Smart Face Verification Attendance System",
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     technologies: ["Python","PyTorch", "OpenCV & MTCNN","Pandas & NumPy", "Streamlit"],
     results: "The system uses a Siamese Neural Network to verify whether a person's face matches a registered identity and marks attendance if verified with high similarity",
     link: "https://github.com/Priyadharshini091/Smart-Face-Verification-Attendance-System.git",
-    image: "images/img2.jpg"
+    image: "https://i.postimg.cc/KYJNCD3r/img2.jpg"
   },
   {
     title: "OneHealth: Unified Healthcare Platform",
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     technologies: ["Python", "HTML5", "CSS", "Javascript", "Sql"],
     results: "Smart healthcare platform with real-time access to hospitals, doctors, pharmacies, and blood banks powered by AI tools.",
     link: "https://github.com/Priyadharshini091/doctor-appointment-system.git",
-    image: "images/img3.jpg"
+    image: "https://i.postimg.cc/fW66HMNW/img3.jpg"
   },
    
 ];
