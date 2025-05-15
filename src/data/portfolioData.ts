@@ -45,7 +45,7 @@ export const personalInfo = {
   email: "r10priyadharshini@gmail.com",
   linkedin: "https://www.linkedin.com/in/priyadharshinir10/",
   github: "https://github.com/Priyadharshini091",
-  website: "https://priyadharshini.netlify.app/",
+  website: "https://priyadharshinirajaram.netlify.app/",
   phone: "7604844159",
   photo: "/images/priyadharshini.jpg",
   about: "I’m a Data Scientist and AI/ML enthusiast with a solid foundation in Python, machine learning, and data analysis. I love solving real-world problems using data and have built projects like Medicinal Plant Identification and Recommendations and face recognition. I’m eager to keep learning and apply my skills to meaningful challenges."
